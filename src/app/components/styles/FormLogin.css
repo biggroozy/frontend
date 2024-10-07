@@ -1,0 +1,22 @@
+.form-login {
+  display: flex;
+  flex-direction: column;
+}
+.form-login span {
+  color: var(--color-accent3);
+  font-weight: 700;
+}
+.form-control {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.form-control input {
+}
+.form-control input + label {
+  transform: translateY(0px);
+  transition: 0.3s ease-in-out;
+}
+.form-control input + label {
+  transform: translateY(0px);
+  transition: 0.3s ease-in-out;
+}
